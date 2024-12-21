@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZUKO SPECS-Stylish Eyewear</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #2b1a2c;
+            color: #fefcfc;
+        }
+
+        header {
+            background-color: #1f2234;
+            color: #fffcfc;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #f6f4f7;
+            padding: 0.5rem 0;
+        }
+         nav a {
+            color: rgb(28, 25, 25);
+            margin: 0 1rem;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #f0a500;
+        }
+
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-image: url('https://focuswestoptometry.ca/wp-content/uploads/2023/07/Modern-bright-city-view-through-eyeglasses.-Blurry-background.-Vision-concept-2-1024x672.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 50vh;
+            color: rgb(15, 45, 42);
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+        }
+
+        .content {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            background:#201823;
+        }
+
+        .product-card {
+            background: rgb(18, 20, 20);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(183, 184, 183, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+        }
+
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product-card h3 {
+            margin: 0.5rem 0;
+        }
+
+        .product-card p {
+            color: #f6f5f5;
+            margin: 0 0 1rem;
+        }
+
+        .product-card button {
+            background-color: #704545;
+            color: rgb(11, 6, 6);
+            border: none;
+            padding: 0.5rem 1rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .product-card button:hover {
+            background-color: #f0a500;
+        }
+
+        footer {
+            background-color: #100f0f;
+            color: rgb(215, 208, 208);
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>𝙀𝙐𝙆𝙊 𝙎𝙋𝙀𝘾𝙏𝘼𝘾𝙇𝙀𝙎</h1>
+        <p>𝘆𝗼𝘂𝗿 𝗽𝗲𝗿𝗳𝗲𝗰𝘁 𝘀𝘁𝘆𝗹𝗲 𝗰𝗼𝗺𝗽𝗮𝗻𝗶𝗼𝗻</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero" id="home">
+        <h2>Discover the New Collection</h2>
+        <p>Stylish, Durable, and Affordable Eyewear</p>
+    </section>
+    <section class="content" id="products">
+        <h2>OUR PRODUCTS</h2>
+        <div class="product">
+            <div class="product-card">
+                <img src="https://img.kwcdn.com/product/fancy/4c7c8085-dc51-4436-89cc-9bf4f3284a18.jpg?imageMogr2/auto-orient%7CimageView2/2/w/800/q/70/format/webp" alt="Spectacle Frame">
+                <h3>Classic Frame</h3>
+                <p>$30.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.ebayimg.com/images/g/7rMAAOSwEjxi0RnP/s-l400.jpg" alt="Spectacle Frame">
+                <h3>Rectangular Frame</h3>
+                <p>$25.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://i.ebayimg.com/00/s/MTYwMFgxNjAw/z/fgoAAOSwr81UOEAp/$_57.JPG?set_id=880000500F" alt="Spectacle Frame">
+                <h3>Vintage Frame</h3>
+                <p>$21.99</p>
+                <button>Add to Cart</button>
+            </div>   
+            <div class="product-card">
+                <img src="https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/656x464/9df78eab33525d08d6e5fb8d27136e95//j/o/john-jacobs-jj-e10235-c7-eyeglasses_g_2375_image_pla.jpg" alt="Spectacle Frame">
+                <h3>Glass Frame</h3>
+                <p>$35.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="https://idee-eyewear.com/cdn/shop/files/IDS3065C3PSG_7.jpg?v=1709299209" alt="Spectacle Frame">
+                <h3>Sun glass</h3>
+                <p>$10.99</p>
+                <button>Add to Cart</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 ZUKO SPECS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
